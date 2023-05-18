@@ -5,9 +5,10 @@ import JokeList from "./JokeList";
 
 class App extends Component {
   render() {
+    const numJokesToGet = 5;
     return (
       <div className="App">
-        <JokeList />
+        <JokeList numJokesToGet={numJokesToGet} />
       </div>
     );
   }
